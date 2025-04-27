@@ -1,0 +1,183 @@
+/* 3a */
+/*
+h1 {
+  color: orange;
+}
+p {
+  color: cyan;
+}
+*/
+
+/* 4a */
+header {
+  background-color: whitesmoke;
+}
+a {
+  color: black;
+}
+
+/* 5a */
+header {
+  background-color: rgb(245, 245, 245);
+}
+a {
+  color: rgb(0, 0, 0);
+}
+
+/* 6a */
+header {
+  background-color: #f5f5f5;
+}
+
+a {
+  color: #212121;
+}
+/* 7a */
+
+nav {
+  background-color: rgba(0, 0, 255, 0.3);
+}
+
+/* 8a */
+
+h1 {
+  color: #f44336;
+}
+h2 {
+  color: #3f51b5;
+}
+h3 {
+  color: #4caf50;
+}
+a {
+  color: #ffc107;
+}
+
+/* 9a */
+#hero {
+  color: #3f51b5;
+}
+#clubs {
+  color: #9c27b0;
+}
+#benefits {
+  color: #00bcd4;
+}
+#programs {
+  color: #ff9800;
+}
+/* 10 */
+
+.page-header {
+  background-color: #bdbdbd;
+}
+.page-title {
+  color: #f44336;
+}
+.section-title {
+  color: #3f51b5;
+}
+.section-text {
+  color: #ff5722;
+}
+.page-footer {
+  background-color: #212121;
+}
+.copyright-text {
+  color: #ffffff;
+}
+
+/* 11a */
+.section-title {
+  color: #3f51b5;
+}
+
+.section-text {
+  color: #ff5722;
+}
+.club-list .title {
+  color: #4caf50;
+}
+.club-list .text {
+  color: #009688;
+}
+.club-list .link {
+  color: #ffc107;
+}
+/* 12a */
+.benefits > li {
+  color: #d500f9;
+}
+/* 13a */
+.page-nav .link {
+  color: #00bcd4;
+}
+.page-nav .link:hover {
+  color: #18ffff;
+}
+.club-list .link {
+  color: #ffc107;
+}
+.club-list .link:hover {
+  color: #f57f17;
+}
+/* 14a */
+.social-links .link {
+  color: teal;
+}
+
+.social-links .link:hover {
+  color: orange;
+}
+
+.social-links .link:active {
+  color: red;
+}
+
+/* 15a */
+.page-nav .link {
+  color: #00bcd4;
+}
+
+.page-nav .link:hover {
+  color: #18ffff;
+}
+.page-nav .link:active {
+  color: #212121;
+}
+.club-list .link {
+  color: #ffc107;
+}
+
+.club-list .link:hover {
+  color: #f57f17;
+}
+.club-list .link:active {
+  color: #ff1744;
+}
+/* 16 */
+.page-nav .link {
+  color: #00bcd4;
+}
+
+.page-nav .link:hover,
+.page-nav .link:focus {
+  color: #18ffff;
+}
+
+.page-nav .link:active {
+  color: #212121;
+}
+
+.club-list .link {
+  color: #ffc107;
+}
+
+.club-list .link:hover,
+.club-list .link:focus {
+  color: #f57f17;
+}
+
+.club-list .link:active {
+  color: #ff1744;
+}
