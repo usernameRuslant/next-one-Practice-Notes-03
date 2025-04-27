@@ -234,3 +234,159 @@ ul {
   overflow: hidden;
   border-radius: 8px;
 }
+/* Типы элементов */
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #212121;
+  font-size: 14px;
+  background-color: #fff;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.section-title {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.333;
+  letter-spacing: 1px;
+}
+
+.section-text {
+  margin-bottom: 16px;
+}
+
+.benefits {
+}
+/* 2.1 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #212121;
+  font-size: 14px;
+  background-color: #fff;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.section-title {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.333;
+  letter-spacing: 1px;
+}
+
+.section-text {
+  margin-bottom: 16px;
+}
+
+.benefits li {
+}
+/* 2.2 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #212121;
+  font-size: 14px;
+  background-color: #fff;
+  line-height: 1.5;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.page-header {
+  margin-bottom: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: #e0e0e0;
+}
+
+.page-nav .link {
+  padding: 8px 12px;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: block;
+}
+/* Скрытые элементы */
+
+/* Изображение */
+img {
+  display: block;
+  max-width: 100%;
+
+  /* object-fit */
+  /* fill— изображение масштабируется без сохранения пропорций, чтобы полностью заполнить контейнер. Значение по умолчанию.
+contain– изображение масштабируется с сохранением пропорций, чтобы максимально заполнить контейнер.
+cover — изображение масштабируется с сохранением пропорций, чтобы полностью заполнить контейнер.
+scale-down — выбор значения  none или  contain, чтобы изображение было наименьшим. Цель – вместить все изображения без изменения пропорций.
+none— сохраняются исходные размеры изображения, заданная высота и ширина не имеют никакого эффекта. */
+}
+/* Flexbox */
