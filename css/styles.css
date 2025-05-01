@@ -390,3 +390,481 @@ scale-down — выбор значения  none или  contain, чтобы и�
 none— сохраняются исходные размеры изображения, заданная высота и ширина не имеют никакого эффекта. */
 }
 /* Flexbox */
+
+/*  Властивості контейнера */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f9f9fd;
+}
+
+.menu {
+  padding: 10px;
+  margin: 0;
+  list-style: none;
+  border-radius: 4px;
+  background-color: #2196f3;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+  /*  Making ul.menu a Flex container  */
+  display: flex;
+}
+
+.menu .link {
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+  background-color: #fff;
+}
+
+.menu .link:hover {
+  text-decoration: underline;
+}
+
+/* 1.2 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #212121;
+  font-size: 14px;
+  background-color: #fff;
+  line-height: 1.5;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.page-header {
+  margin-bottom: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: #e0e0e0;
+}
+
+.page-nav .link {
+  display: block;
+  padding: 8px 12px;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.page-nav {
+  display: flex;
+}
+.page-header .container {
+  display: flex;
+}
+/* 1.3 */
+.menu {
+  gap: 8px;
+}
+/* 1.2.2 */
+.page-nav {
+  gap: 8px;
+}
+
+/* 1.4 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #212121;
+  font-size: 14px;
+  background-color: #fff;
+  line-height: 1.5;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.downloads {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.downloads .link {
+  text-decoration: none;
+}
+
+.downloads .link:hover,
+.downloads .link:focus {
+  text-decoration: underline;
+}
+/* justify-content  */
+.page-header .container {
+  display: flex;
+  justify-content: space-between;
+}
+/*    <!-- align-items --> */
+
+.page-header .container {
+  align-items: center;
+}
+/* <!-- Властивість flex-wrap --> */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #212121;
+  font-size: 14px;
+  background-color: #fff;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.benefits {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.benefits .item {
+  width: 280px;
+}
+
+/* <!-- Сітка елементів --> */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: #edf2f7;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-set {
+  display: flex;
+  /* Make a flex container multiline */
+  flex-wrap: wrap;
+  /* Set gap between rows and columns */
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  /*  Set the width of the elements  */
+  flex-basis: calc((100% - 20px) / 3);
+
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.item h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.item p {
+  margin: 0;
+}
+/* .benefits */
+.benefits .item {
+  width: calc((100%-32px) / 3);
+}
+/* Flex-елементи */
+.benefits .item {
+  flex-basis: calc((100%-32px) / 3);
+}
+
+/* * {
+  box-sizing: border-box;
+}
+/* 11 */
+/* 
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  font-size: 20px;
+  background-color: #edf2f7;
+}
+
+.container {
+  display: flex;
+  gap: 8px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.sidebar {
+  flex-basis: 200px;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.sidebar,
+.content {
+  height: 300px;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+} */
+
+/* <!-- Як реалізувати приклеєний футер сторінки? --> */
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #212121;
+  font-size: 14px;
+  background-color: #ffffff;
+  line-height: 1.5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.page-header {
+  margin-bottom: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: #e0e0e0;
+}
+
+.page-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-nav {
+  display: flex;
+  gap: 8px;
+}
+
+.page-nav .link {
+  display: block;
+  padding: 4px 8px;
+  color: #03a9f4;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.page-nav .link:hover,
+.page-nav .link:focus {
+  color: #0288d1;
+}
+
+.page-nav .link:active {
+  color: #f44336;
+}
+
+.page-title {
+  margin-bottom: 24px;
+  font-size: 32px;
+  text-align: center;
+  line-height: 1.333;
+  letter-spacing: 3px;
+}
+
+.section {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 2px dashed #212121;
+}
+
+.section-title {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.333;
+  letter-spacing: 1px;
+}
+
+.club-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.club-list .item {
+  flex-basis: calc((100% - 24px) / 3);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.club-list .title {
+  margin-bottom: 8px;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 1.333;
+}
+
+.club-list .link {
+  color: #03a9f4;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.club-list .link:hover,
+.club-list .link:focus {
+  color: #0288d1;
+}
+
+.club-list .link:active {
+  color: #f44336;
+}
+
+.downloads .link {
+  color: #03a9f4;
+  text-decoration: none;
+}
+
+.downloads .link:hover,
+.downloads .link:focus {
+  color: #0288d1;
+  text-decoration: underline;
+}
+
+.downloads .link:active {
+  color: #f44336;
+}
+
+.page-footer {
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #212121;
+}
+
+.page-footer .container {
+  display: flex;
+  align-items: center;
+}
+
+.copyright-text {
+  color: #ffffff;
+}
+
+.social-links {
+  display: flex;
+  gap: 8px;
+}
+
+.benefits {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.benefits .item {
+  flex-basis: calc((100% - 32px) / 3);
+}
+
+.downloads {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 20px;
+}
+main {
+  flex-grow: 1;
+} */
